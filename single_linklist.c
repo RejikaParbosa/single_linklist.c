@@ -55,7 +55,7 @@ insert_beg()
 	struct node *tmp;
 	tmp=malloc(sizeof(struct node));
 	printf("Enter the data: ");
-	scanf("%d",&data);
+	scanf("%d",&tmp->data);
 	tmp->next=start;
 	start=tmp;
 }
